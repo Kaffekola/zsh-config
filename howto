@@ -1,0 +1,36 @@
+Global setup:
+
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email github.luftloch@safersignup.de
+      
+
+Next steps:
+
+  mkdir zsh-config
+  cd zsh-config
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:Kaffekola/zsh-config.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:Kaffekola/zsh-config.git
+  git push -u origin master
+      
+
+Importing a Subversion Repo?
+
+  Check out the guide for step by step instructions.
+      
+
+When you're done:
+
+  Continue
+
+
